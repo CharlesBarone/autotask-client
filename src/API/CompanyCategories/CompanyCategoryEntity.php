@@ -10,7 +10,7 @@ use Spatie\DataTransferObject\DataTransferObject;
  */
 class CompanyCategoryEntity extends DataTransferObject
 {
-    public int $displayColorRgb;
+    public ?int $displayColorRgb;
     public $id;
     public bool $isActive;
     public ?bool $isApiOnly;
