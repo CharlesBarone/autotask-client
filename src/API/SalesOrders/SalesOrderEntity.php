@@ -20,7 +20,7 @@ class SalesOrderEntity extends DataTransferObject
     public ?string $billToPostalCode;
     public ?string $billToState;
     public int $companyID;
-    public int $contactID;
+    public ?int $contactID;
     public int $id;
     public ?int $impersonatorCreatorResourceID;
     public int $opportunityID;
