@@ -13,7 +13,7 @@ class KnowledgeBaseCategoryEntity extends DataTransferObject
     public ?string $description;
     public $id;
     public string $name;
-    public int $parentCategoryID;
+    public ?int $parentCategoryID;
     /** @var \Anteris\Autotask\Support\UserDefinedFields\UserDefinedFieldEntity[]|null */
     public ?array $userDefinedFields;
 
