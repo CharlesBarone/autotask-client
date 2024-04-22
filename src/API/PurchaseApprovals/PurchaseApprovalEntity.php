@@ -12,7 +12,7 @@ class PurchaseApprovalEntity extends DataTransferObject
 {
     public ?string $costType;
     public $id;
-    public bool $isApproved;
+    public ?bool $isApproved;
     public ?string $rejectNote;
     /** @var \Anteris\Autotask\Support\UserDefinedFields\UserDefinedFieldEntity[]|null */
     public ?array $userDefinedFields;
